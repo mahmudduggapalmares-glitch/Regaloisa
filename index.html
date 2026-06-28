@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Universo de Isabella 🌌</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="space-bg"></div>
+    <div class="nebula"></div>
+    <div class="faint-stars"></div>
+
+    <header>
+        <h1 class="cosmic-title">El Universo de Isabella</h1>
+        <p class="cosmic-subtitle">Mi princesa, mi flor, mi estrella. Mi mundo en la inmensidad.</p>
+    </header>
+
+    <nav class="tabs-nav">
+        <button class="tab-btn active" onclick="openTab(event, 'espacio')">✨ Espacio 3D</button>
+        <button class="tab-btn" onclick="openTab(event, 'poemas')">🌹 Poemas</button>
+        <button class="tab-btn" onclick="openTab(event, 'sorpresas')">🔮 Destellos</button>
+    </nav>
+
+    <main class="tabs-container">
+
+        <section id="espacio" class="tab-content active">
+            <div class="universe-3d">
+                <div class="planet sun-glow"></div>
+                <div class="orbit-isabella">
+                    <div class="planet isa-world">Isabella</div>
+                </div>
+            </div>
+            <p class="instruction">Mi mundo gira delicadamente en torno a tu luz.</p>
+        </section>
+
+        <section id="poemas" class="tab-content">
+            <div class="card-dark">
+                <h3>La Flor del Cosmos 🌹</h3>
+                <p class="poem-text">
+                    "En la calma profunda de la noche,<br>
+                    donde el tiempo parece detenerse,<br>
+                    eres el destello más tierno y puro,<br>
+                    la flor que en mi alma florece."
+                </p>
+            </div>
+            <div class="card-dark">
+                <h3>Mi Pequeña Estrella ⭐</h3>
+                <p class="poem-text">
+                    "No hace falta un cielo brillante,<br>
+                    ni mil galaxias para mirar,<br>
+                    si en la dulzura de tus ojos,<br>
+                    tengo el universo entero para amar."
+                </p>
+            </div>
+        </section>
+
+        <section id="sorpresas" class="tab-content">
+            <div class="card-dark">
+                <h3>📜 Un Mensaje Silencioso</h3>
+                <p>Este rincón del espacio fue diseñado para descansar la vista y encender el corazón. Eres el centro de mi gravedad, mi niña bella.</p>
+            </div>
+            <button class="magic-btn" onclick="lanzarDestellos()">Hacer brotar destellos</button>
+            <div id="love-status"></div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
